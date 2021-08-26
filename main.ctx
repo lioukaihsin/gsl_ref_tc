@@ -1,0 +1,44 @@
+\documentclass[11pt]{report}
+\begin{document}
+
+\title{GNU科學函數庫 \\ 版本號 2.7}
+\author{ 
+Mark Galassi \\
+Jim Davies \\
+Brian Gough \\
+Gerard Jungman \\
+Patrick Alken \\
+Michael Booth \\
+Fabrice Rossi \\
+Rhys Ulerich \\
+\\
+Translator: Kai-Hsin Liou
+}
+\date{}
+\maketitle
+
+
+\chapter{介紹}
+GSL科學函數庫（GSL）是一套給科學計算使用的函式。這些函式由C寫成，並且提供一套現代的應用程式介面給C語言程式設計師使用。這些函式可以被包裝在更高階的程式語言裡。GSL的原始碼遵循GNU General Public License的授權。
+
+\section{GSL的函式}
+GSL包含了廣泛的科學計算會用到的函式。這些函式有以下領域
+
+\begin{table}[htp]
+\caption{default}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+複數            &  多項式的根    &    特殊函數   \\
+\hline
+向量和矩陣   &   排列            &    組合    \\
+\hline
+排列            &  BLAS的支援   &  線性代數   \\
+\hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+
+\end{document}
